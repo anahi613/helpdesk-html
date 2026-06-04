@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reportar Incidente</title>
+</head>
+<body>
+
+<header>
+    <h1>Sistema Help Desk</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a> |
+    <a href="reportar.html">Reportar Incidente</a> |
+    <a href="tickets.html">Tickets</a>
+</nav>
+
+<main>
+
+<section>
+
+<h2>Registro de Incidentes</h2>
+
+<form>
+
+<label for="titulo">
+Título del incidente:
+</label>
+<br>
+
+<input type="text" id="titulo" name="titulo">
+<br><br>
+
+<label for="categoria">
+Categoría:
+</label>
+<br>
+
+<select id="categoria" name="categoria">
+
+<option>Red</option>
+
+<option>Hardware</option>
+
+<option>Software</option>
+
+</select>
+
+<br><br>
+
+<p>Prioridad:</p>
+
+<input type="radio" id="alta" name="prioridad">
+<label for="alta">Alta</label>
+
+<input type="radio" id="media" name="prioridad">
+<label for="media">Media</label>
+
+<input type="radio" id="baja" name="prioridad">
+<label for="baja">Baja</label>
+
+<br><br>
+
+<label for="descripcion">
+Descripción:
+</label>
+
+<br>
+
+<textarea id="descripcion"
+name="descripcion"
+rows="5"
+cols="40">
+</textarea>
+
+<br><br>
+
+<input type="submit" value="Enviar">
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+<p>Universidad Técnica de Manabí</p>
+</footer>
+
+</body>
+</html>
