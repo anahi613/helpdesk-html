@@ -3,54 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help Desk - Inicio</title>
+    <title>Help Desk - Dashboard</title>
+
+    <!-- Hoja de estilos del UI Kit -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <header>
-        <h1>Sistema Help Desk</h1>
-        <p>Gestión de Incidentes Técnicos</p>
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="contenedor">
+            <h1>Sistema Help Desk</h1>
+            <p>Gestión de Incidentes Técnicos</p>
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a> |
-        <a href="reportar.html">Reportar Incidente</a> |
-        <a href="tickets.html">Tickets</a>
+    <!-- Menú -->
+    <nav class="navbar">
+        <div class="contenedor menu">
+            <a href="index.html">Inicio</a>
+            <a href="reportar.html">Reportar Incidente</a>
+            <a href="tickets.html">Tickets</a>
+        </div>
     </nav>
 
-    <main>
+    <!-- Contenido -->
+    <main class="contenedor">
 
-        <section>
-            <h2>Bienvenido</h2>
+        <!-- Tarjetas resumen -->
+        <section class="contenedor-cards">
 
-            <article>
-                <h3>Descripción General</h3>
-
-                <p>
-                    Este sistema permite registrar,
-                    consultar y gestionar incidentes técnicos.
-                </p>
+            <article class="card">
+                <h3>Tickets Abiertos</h3>
+                <p>12</p>
+                <span class="badge alta">Alta</span>
             </article>
+
+            <article class="card">
+                <h3>En Proceso</h3>
+                <p>5</p>
+                <span class="badge media">Media</span>
+            </article>
+
+            <article class="card">
+                <h3>Tickets Cerrados</h3>
+                <p>20</p>
+                <span class="badge baja">Baja</span>
+            </article>
+
         </section>
 
-        <section>
-            <h2>Resumen del Sistema</h2>
+        <!-- Información -->
+        <section class="card">
 
-            <article>
-                <h3>Estadísticas</h3>
+            <h2>Bienvenido</h2>
 
-                <ul>
-                    <li>Tickets abiertos: 12</li>
-                    <li>Tickets en proceso: 5</li>
-                    <li>Tickets cerrados: 20</li>
-                </ul>
-            </article>
+            <p>
+                Este sistema permite registrar, consultar y gestionar
+                incidentes técnicos de manera organizada, facilitando
+                el seguimiento y control de los tickets generados por
+                los usuarios.
+            </p>
+
+            <br>
+
+            <a href="reportar.html" class="btn btn-primary">
+                Reportar Incidente
+            </a>
+
         </section>
 
     </main>
 
-    <footer>
-        <p>Universidad Técnica de Manabí - 2026</p>
+    <!-- Pie -->
+    <footer class="footer">
+
+        <p>
+            Universidad Técnica de Manabí - 2026
+        </p>
+
     </footer>
 
 </body>
