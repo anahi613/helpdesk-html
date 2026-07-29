@@ -1,16 +1,10 @@
-# Sistema Help Desk - API REST para Gestión de Incidentes
+# Sistema Help Desk - API REST
 
-## Descripción del proyecto
+## Descripción
 
-El presente proyecto consiste en el desarrollo de un Sistema de Gestión de Incidentes (Help Desk), cuyo objetivo es permitir la administración de tickets de soporte técnico mediante una API REST.
+Sistema de gestión de incidentes Help Desk desarrollado para administrar tickets de soporte técnico mediante una API REST.
 
-El sistema permite registrar, consultar, actualizar y eliminar incidentes reportados por los usuarios, almacenando la información en una base de datos PostgreSQL.
-
-El backend fue desarrollado utilizando Node.js y Express.js, aplicando una arquitectura organizada por capas mediante modelos, controladores y rutas, permitiendo una estructura escalable y fácil de mantener.
-
-# Tecnologías utilizadas
-
-## Backend
+## Tecnologías utilizadas
 
 - Node.js
 - Express.js
