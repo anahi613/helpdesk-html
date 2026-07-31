@@ -57,9 +57,12 @@ const registrarTicket = async (req,res)=>{
 
 
 // PUT actualizar
-const modificarTicket = async(req,res)=>{
+const modificarTicket = async (req, res) => {
 
-    try{
+    try {
+
+        console.log("ID:", req.params.id);
+        console.log("BODY:", req.body);
 
         const actualizado = await ticketModel.actualizarTicket(
             req.params.id,
@@ -68,10 +71,12 @@ const modificarTicket = async(req,res)=>{
 
         res.json(actualizado);
 
-    }catch(error){
+    } catch (error) {
+
+        console.error(error);
 
         res.status(500).json({
-            error:error.message
+            error: error.message
         });
     }
 };
