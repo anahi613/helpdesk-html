@@ -1,0 +1,19 @@
+.dashboard{
+
+    max-width:1000px;
+
+    margin:auto;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+.dashboard h1{
+
+    color:#0d6efd;
+
+    margin-bottom:20px;
+
+}
